@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(44, 44, 44, 0.925);
+}
+#features li {
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 20px;
+    list-style-type: '';
+}
+
+.container{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: rgba(44, 44, 44, 0.925);
+    border: 1px solid rgba(172, 64, 64, 0.925);
+    color:rgba(231, 152, 34, 0.925);
+    max-width: 36rem;
+    font-size: 14px;
+    font-family: 'Lucida Sans';
+    padding: 3em;
+    position: relative;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 10px;
+}
+.grid-item {
+    border-left: 1px solid rgba(172, 64, 64, 0.925);
+    border-bottom: 0ch;
+    border-right: 0ch;
+    border-top: 0ch;
+    width: 80px;
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgba(172, 64, 64, 0.925)
+}
+a:link{
+    color: rgba(172, 64, 64, 0.925);
+}
